@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Norse-Bold, sans-serif; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-side {
+    background-image: url(img/halie-west-unsplash.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+
+.first-section {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second-section {
+    height: 33vh;
+    background-color: white;
+    align-items: center;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+/* .form-divs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+input:invalid {
+    border: 1px solid red;
+}
+label {
+    font-size: 11px;
+    color: #3b3b3c;
+} 
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 5px;
+    height: 40px;
+    width: 180px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
+}
+.third-section {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.link {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.link a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+.forFooter a{
+    color: white;
+    text-decoration: none;
+}
+.forFooter {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.forImage {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+.p-footer {
+    font-size: 12px;
+}
+.Image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+.Image h1{
+    font-family: Norse-Bold, sans-serif;
+    font-size: 60px;
+}
